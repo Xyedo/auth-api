@@ -1,6 +1,6 @@
 const Hapi = require('@hapi/hapi');
-const ClientError = require('../../Commons/exceptions/ClientError');
-const DomainErrorTranslator = require('../../Commons/exceptions/DomainErrorTranslator');
+const ClientError = require('../../commons/exceptions/clientError');
+const DomainErrorTranslator = require('../../commons/exceptions/domainErrorTranslator');
 const users = require('../../Interfaces/http/api/users');
  
 const createServer = async (container) => {
