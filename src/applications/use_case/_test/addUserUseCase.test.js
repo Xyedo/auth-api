@@ -2,7 +2,7 @@ const RegisterUser = require('../../../domains/users/entities/registerUser');
 const RegisteredUser = require('../../../domains/users/entities/registeredUser');
 const UserRepository = require('../../../domains/users/userRepository');
 const PasswordHash = require('../../security/passwordHash');
-const AddUserUseCase = require('../addUserUseCase');
+const AddUserUseCase = require('../addUserUsecase');
  
 describe('AddUserUseCase', () => {
   it('should orchestrating the add user action correctly', async () => {
